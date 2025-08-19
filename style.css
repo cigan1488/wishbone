@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 h1,
 h2,
 h3,
@@ -157,7 +162,10 @@ header {
 }
 
 .hero-btn .btn:hover,
-.featured-projects-btn:hover {
+.featured-projects-btn:hover,
+.meet-our-team-btn:hover,
+.readmore:hover,
+.get-in-touch-l button:hover {
     color: white;
     transform: scale(1.1);
     background: #1B1A1A;
@@ -472,6 +480,26 @@ header {
 .featured-projects-img {
     display: flex;
     gap: 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.readmore {
+    background: #1B1A1A;
+    width: 130px;
+    height: 46px;
+
+    border-radius: 14px;
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    z-index: 2;
+    cursor: pointer;
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+
+
 }
 
 .featured-projects-btn {
@@ -495,6 +523,51 @@ header {
 .meet-our-team-right {
     width: 380px;
     height: 400px;
+}
+
+.meet-our-team-right h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+
+    line-height: 38px;
+
+    width: 240px;
+    height: 40px;
+    color: #403E3B;
+    margin-bottom: 20px;
+
+
+}
+
+.meet-our-team-right p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+
+    line-height: 24px;
+
+    width: 360px;
+    height: 70px;
+
+    color: #645C55;
+}
+
+.meet-our-team-btn {
+    width: 120px;
+    height: 46px;
+    display: block;
+    padding: 16px;
+    left: 10px;
+    top: 30px;
+    border: none;
+    position: relative;
+    background: white;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+
 }
 
 .meet-our-team-left {
@@ -535,4 +608,116 @@ header {
 .column-text {
     display: flex;
     flex-direction: column;
+}
+
+
+.get-in-touch {
+    max-width: 1440px;
+    height: 314px;
+    background: #CEC4BC;
+}
+
+.get-in-touch-container {
+    width: 1200px;
+    height: 114px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 80px 140px;
+    justify-content: space-between;
+
+}
+
+.get-in-touch-r h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+
+    line-height: 20px;
+    letter-spacing: 2px;
+
+    width: 124px;
+    height: 20px;
+
+    color: #645C55;
+
+}
+
+.get-in-touch-r h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+
+    line-height: 42px;
+
+    color: #1B1A1A;
+    width: 568px;
+    height: 84px;
+
+
+}
+
+.get-in-touch-l button {
+    width: 144px;
+    height: 46px;
+    color: #1B1A1A;
+    border: none;
+    background: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    transition: all 0.3s ease;
+
+}
+
+footer {
+    width: 1440px;
+    height: 204px;
+
+    background: #F7F7F7;
+}
+
+.footer-container {
+    width: 1200px;
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 140px;
+}
+
+.container-l {
+    width: 690px;
+    height: 84px;
+
+}
+
+.container-l img {
+    margin-bottom: 16px;
+}
+
+.container-l p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+
+    line-height: 20px;
+
+    color: #645C55;
+}
+
+.footer-img {
+    position: relative;
+    top: 50px;
+    width: 112px;
+    height: 24px;
+    gap: 14px;
+    display: flex;
+
 }
