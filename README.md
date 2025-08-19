@@ -27,8 +27,11 @@ The project follows the layout provided in [Figma](https://www.figma.com/design/
    git clone https://github.com/username/repository.git
    ```
 ## 📂 Project Structure
+
 index.html       — Main page
+
 css/             — Stylesheet files
+
 images/          — Project images and assets
 
 ## 📝 Author
